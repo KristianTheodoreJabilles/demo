@@ -1,14 +1,17 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "data": {
+    "id": "1",
+    "type": "region",
+    "attributes": {
+      "name": "Singapore",
+      "hostname": "https://www.google.com/",
+      "slug": "sg",
+      "fb_app_id": 01234,
+      "head_code": "\u003cscript\u003e\r\n// header code\r\nconsole.log('header_code')\r\n\u003c/script\u003e",
+      "body_code": "\u003cscript type=\"application/ld+json\"\u003e\r\n  {\r\n    \"@context\": \"http://schema.org\",\r\n    \"@type\": \"Organization\",\r\n    \"name\" : \"ValueChampion\",\r\n    \"url\": \"https://www.moneysmart.sg\",\r\n    \"sameAs\" : [\r\n      \"https://www.facebook.com/HAHAHAH\",\r\n      \"https://twitter.com/GAGAGGAG\"\r\n    ]\r\n  }\r\n\u003c/script\u003e",
+      "footer_code": "\u003cscript\u003e\r\n// header code\r\nconsole.log('footer_code')\r\n\u003c/script\u003e",
+      "gtm_code": "XXXXXX",
+      "tracker_js_url": "https://www.google.com/"
+    }
   }
 }
